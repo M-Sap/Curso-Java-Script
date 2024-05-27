@@ -1,0 +1,8 @@
+Comentários em JS:
+// comenta linha
+/**/Comentário de mais de uma linha
+Concatenação: ('blablabla, '+variável+'blabla')
+váriavel.length() -> Tamanho da string, quantas letras ela tem
+váriavel.toUpperCase() -> Transforma a variável em letra maiúsculas
+variável.toLowerCase() -> Transforma a váriavel em letras minúsculas
+

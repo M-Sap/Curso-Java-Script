@@ -1,0 +1,6 @@
+Aula 1: 
+Diferença entre servidor e cliente. 
+->Cliente é quem acessa um servidor qualquer a procura de um determinado dado, geralmente em HTML 
+->Esse servidor pode ser acessado  de um navegador. O cliente acessa esse servidor na nuvem, a nuvem 
+envia uma cópia do dado solicitado para o cliente. 
+Java Script funciona mais para cliente.
