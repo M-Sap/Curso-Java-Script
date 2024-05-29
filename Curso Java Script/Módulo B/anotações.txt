@@ -6,3 +6,40 @@ váriavel.length() -> Tamanho da string, quantas letras ela tem
 váriavel.toUpperCase() -> Transforma a variável em letra maiúsculas
 variável.toLowerCase() -> Transforma a váriavel em letras minúsculas
 
+localizar váriavel:
+variável.toLocaleString('pt-BR', {style: currency}, currency: 'USD')
+Localizar a váriavel fornecida pelo usuário em português, do tipo moeda e a moeda será euro
+
+->Operadores aritiméticos
+calculos básicos
+5+2 =7
+5-2 =3
+5*2 =10 -> multiplicação
+5/2 =2.5 -> Divisão
+5%2 =1 ->Módulo, resto de divisão, números inteiros
+5**2 =25 ->Potência, novo na versão 6 do ecma script
+
+
+->Para realizar expressões aritiméticas, usar ()
+
+n+=4 é equivalente a n=n+4
+x++ operador de incremento
+
+Operadores relacionais -> resulta em valores booleanos (true e false)
+> maior
+< menor
+>= maior ou igual
+<= menor ou igual
+== se for igual, comparando duas váriaveis
+=! não igual, diferente
+5='5' o java script falaria true, então existe o operador === que compara o caracter e o tipo 
+
+lógicos
+! negação, não. true-> false, false->true
+&& conjunção, famoso e
+|| ou
+
+ordem de precêdencia:
+operadores aritiméticos
+operadores relacionais
+operadores lógicos

@@ -1,0 +1,32 @@
+DOM
+-> para pegar um elemento do html usa 
+var p1=document.GetElementByTagName('tag')
+document.write(p1.InnerText) -> escreve o conteúdo de p1
+
+->Pegar elemento por id
+GetElementById('Id')
+
+->Pegar por seletor
+document.QuerySelector('tag#Id')
+
+Função: algo que acontece só quando o evento ocorrer. 
+function ação(parametro){
+    bloco
+}
+
+em código:
+body
+<div id="#area" onclick"clicar()">
+    interaja...
+</div>
+
+->Para realizar isso dentro do JS:
+
+a.addEventListener('click', clicar)
+<script>
+    fuction clicar(){
+        var a= document.GetElementById('area)
+        a.InnerText = "Clicou"
+    }
+</script>
+
